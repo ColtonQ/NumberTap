@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Number Tap</string>
+    <string name="points">\u0020Points</string>
+    <string name="select">Select</string>
+    <string name="selected">Selected</string>
+</resources>

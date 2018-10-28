@@ -1,0 +1,1604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThemeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="75dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/theme00ButtonSpecial"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="onClickThemeButton"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textViewTheme00Special"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Default"
+                                android:textColor="@android:color/white"
+                                android:visibility="invisible" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:layout_editor_absoluteX="8dp"
+                                tools:layout_editor_absoluteY="8dp">
+
+                                <ImageButton
+                                    android:id="@+id/button00Theme00Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button01Theme00Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button02Theme00Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button03Theme00Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                            </GridLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/theme01ButtonSpecial"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="onClickThemeButton"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textViewTheme01Special"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Default"
+                                android:textColor="@android:color/white"
+                                android:visibility="invisible" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:layout_editor_absoluteX="8dp"
+                                tools:layout_editor_absoluteY="8dp">
+
+                                <ImageButton
+                                    android:id="@+id/button00Theme01Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button01Theme01Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button02Theme01Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button03Theme01Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                            </GridLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/theme02ButtonSpecial"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="onClickThemeButton"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textViewTheme02Special"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Default"
+                                android:textColor="@android:color/white"
+                                android:visibility="invisible" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:layout_editor_absoluteX="8dp"
+                                tools:layout_editor_absoluteY="8dp">
+
+                                <ImageButton
+                                    android:id="@+id/button00Theme02Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button01Theme02Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button02Theme02Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button03Theme02Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                            </GridLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/theme03ThemeButtonSpecial"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="onClickThemeButton"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textViewTheme03Special"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Default"
+                                android:textColor="@android:color/white"
+                                android:visibility="invisible" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:layout_editor_absoluteX="8dp"
+                                tools:layout_editor_absoluteY="8dp">
+
+                                <ImageButton
+                                    android:id="@+id/button00Theme03Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button01Theme03Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button02Theme03Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button03Theme03Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                            </GridLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/theme04ButtonSpecial"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="onClickThemeButton"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textViewTheme04Special"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Default"
+                                android:textColor="@android:color/white"
+                                android:visibility="invisible" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:layout_editor_absoluteX="8dp"
+                                tools:layout_editor_absoluteY="8dp">
+
+                                <ImageButton
+                                    android:id="@+id/button00Theme04Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button01Theme04Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button02Theme04Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button03Theme04Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                            </GridLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/theme05ButtonSpecial"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="onClickThemeButton"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textViewTheme05Special"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Default"
+                                android:textColor="@android:color/white"
+                                android:visibility="invisible" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:layout_editor_absoluteX="8dp"
+                                tools:layout_editor_absoluteY="8dp">
+
+                                <ImageButton
+                                    android:id="@+id/button00Theme05Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button01Theme05Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button02Theme05Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button03Theme05Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                            </GridLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/theme06ButtonSpecial"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="onClickThemeButton"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textViewTheme06Special"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Default"
+                                android:textColor="@android:color/white"
+                                android:visibility="invisible" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:layout_editor_absoluteX="8dp"
+                                tools:layout_editor_absoluteY="8dp">
+
+                                <ImageButton
+                                    android:id="@+id/button00Theme06Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button01Theme06Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button02Theme06Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button03Theme06Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                            </GridLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/theme07ButtonSpecial"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="onClickThemeButton"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textViewTheme07Special"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Default"
+                                android:textColor="@android:color/white"
+                                android:visibility="invisible" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:layout_editor_absoluteX="8dp"
+                                tools:layout_editor_absoluteY="8dp">
+
+                                <ImageButton
+                                    android:id="@+id/button00Theme07Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button01Theme07Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button02Theme07Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button03Theme07Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                            </GridLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/themeS0ButtonSpecial"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="onClickThemeButton"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textViewThemeS0Special"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Default"
+                                android:textColor="@android:color/white"
+                                android:visibility="invisible" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:layout_editor_absoluteX="8dp"
+                                tools:layout_editor_absoluteY="8dp">
+
+                                <ImageButton
+                                    android:id="@+id/button00ThemeS0Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button01ThemeS0Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button02ThemeS0Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button03ThemeS0Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                            </GridLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/themeS1ButtonSpecial"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="onClickThemeButton"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textViewThemeS1Special"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Default"
+                                android:textColor="@android:color/white"
+                                android:visibility="invisible" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:layout_editor_absoluteX="8dp"
+                                tools:layout_editor_absoluteY="8dp">
+
+                                <ImageButton
+                                    android:id="@+id/button00ThemeS1Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button01ThemeS1Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button02ThemeS1Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button03ThemeS1Special"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                            </GridLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </ScrollView>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="75dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/theme00ButtonE"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textViewTheme00"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:text="Default"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="36sp" />
+
+                                <Button
+                                    android:id="@+id/theme00Button"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="10dp"
+                                    android:onClick="onClickThemeButton"
+                                    android:background="@drawable/blank"
+                                    android:text="Button"/>
+
+
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:layout_editor_absoluteX="8dp"
+                                tools:layout_editor_absoluteY="8dp">
+
+                                <ImageButton
+                                    android:id="@+id/button00Theme00"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button01Theme00"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button02Theme00"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button03Theme00"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                            </GridLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/theme01ButtonE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textViewTheme01"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:text="Default"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="36sp" />
+
+                                <Button
+                                    android:id="@+id/theme01Button"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="10dp"
+                                    android:onClick="onClickThemeButton"
+                                    android:background="@drawable/blank"
+                                    android:text="Button"/>
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:layout_editor_absoluteX="8dp"
+                                tools:layout_editor_absoluteY="8dp">
+
+                                <ImageButton
+                                    android:id="@+id/button00Theme01"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button01Theme01"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button02Theme01"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button03Theme01"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                            </GridLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/theme02ButtonE"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textViewTheme02"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:text="Default"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="36sp" />
+
+                                <Button
+                                    android:id="@+id/theme02Button"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="10dp"
+                                    android:onClick="onClickThemeButton"
+                                    android:background="@drawable/blank"
+                                    android:text="Button"/>
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:layout_editor_absoluteX="8dp"
+                                tools:layout_editor_absoluteY="8dp">
+
+                                <ImageButton
+                                    android:id="@+id/button00Theme02"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button01Theme02"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button02Theme02"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button03Theme02"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                            </GridLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/theme03ButtonE"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textViewTheme03"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:text="Default"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="36sp" />
+
+                                <Button
+                                    android:id="@+id/theme03Button"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="10dp"
+                                    android:onClick="onClickThemeButton"
+                                    android:background="@drawable/blank"
+                                    android:text="Button"/>
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:layout_editor_absoluteX="8dp"
+                                tools:layout_editor_absoluteY="8dp">
+
+                                <ImageButton
+                                    android:id="@+id/button00Theme03"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button01Theme03"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button02Theme03"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button03Theme03"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                            </GridLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/theme04ButtonE"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textViewTheme04"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:text="Default"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="36sp" />
+
+                                <Button
+                                    android:id="@+id/theme04Button"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="10dp"
+                                    android:onClick="onClickThemeButton"
+                                    android:background="@drawable/blank"
+                                    android:text="Button"/>
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:layout_editor_absoluteX="8dp"
+                                tools:layout_editor_absoluteY="8dp">
+
+                                <ImageButton
+                                    android:id="@+id/button00Theme04"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button01Theme04"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button02Theme04"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button03Theme04"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                            </GridLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/theme05ButtonE"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textViewTheme05"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:text="Default"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="36sp" />
+
+                                <Button
+                                    android:id="@+id/theme05Button"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="10dp"
+                                    android:onClick="onClickThemeButton"
+                                    android:background="@drawable/blank"
+                                    android:text="Button"/>
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:layout_editor_absoluteX="8dp"
+                                tools:layout_editor_absoluteY="8dp">
+
+                                <ImageButton
+                                    android:id="@+id/button00Theme05"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button01Theme05"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button02Theme05"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button03Theme05"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                            </GridLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/theme06ButtonE"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textViewTheme06"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:text="Default"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="36sp" />
+
+                                <Button
+                                    android:id="@+id/theme06Button"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="10dp"
+                                    android:onClick="onClickThemeButton"
+                                    android:background="@drawable/blank"
+                                    android:text="Button"/>
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:layout_editor_absoluteX="8dp"
+                                tools:layout_editor_absoluteY="8dp">
+
+                                <ImageButton
+                                    android:id="@+id/button00Theme06"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button01Theme06"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button02Theme06"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button03Theme06"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                            </GridLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/theme07ButtonE"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textViewTheme07"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:text="Default"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="36sp" />
+
+                                <Button
+                                    android:id="@+id/theme07Button"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="10dp"
+                                    android:onClick="onClickThemeButton"
+                                    android:background="@drawable/blank"
+                                    android:text="Button"/>
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:layout_editor_absoluteX="8dp"
+                                tools:layout_editor_absoluteY="8dp">
+
+                                <ImageButton
+                                    android:id="@+id/button00Theme07"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button01Theme07"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button02Theme07"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button03Theme07"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                            </GridLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/themeS0ButtonE"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textViewThemeS0"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:text="Default"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="36sp" />
+
+                                <Button
+                                    android:id="@+id/themeS0Button"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="10dp"
+                                    android:onClick="onClickThemeButton"
+                                    android:background="@drawable/blank"
+                                    android:text="Button"/>
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:layout_editor_absoluteX="8dp"
+                                tools:layout_editor_absoluteY="8dp">
+
+                                <ImageButton
+                                    android:id="@+id/button00ThemeS0"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button01ThemeS0"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button02ThemeS0"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button03ThemeS0"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                            </GridLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/themeS1ButtonE"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textViewThemeS1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:text="Default"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="36sp" />
+
+                                <Button
+                                    android:id="@+id/themeS1Button"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="10dp"
+                                    android:onClick="onClickThemeButton"
+                                    android:background="@drawable/blank"
+                                    android:text="Button"/>
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_weight="1" />
+
+                            <GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:layout_editor_absoluteX="8dp"
+                                tools:layout_editor_absoluteY="8dp">
+
+                                <ImageButton
+                                    android:id="@+id/button00ThemeS1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button01ThemeS1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="0"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button02ThemeS1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="0"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                                <ImageButton
+                                    android:id="@+id/button03ThemeS1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_column="1"
+                                    android:layout_margin="5dp"
+                                    android:layout_row="1"
+                                    android:background="@drawable/blank_transparent"
+                                    app:srcCompat="@drawable/blank" />
+
+                            </GridLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </ScrollView>
+
+                <TextView
+                    android:id="@+id/pointsText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
+                    android:text="TextView" />
+            </RelativeLayout>
+        </ScrollView>
+
+        <ImageButton
+            android:id="@+id/playButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/blank_transparent"
+            android:onClick="onClickMainButton"
+            app:srcCompat="@drawable/play_small" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
+
